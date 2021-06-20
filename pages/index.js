@@ -5,7 +5,8 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "animate.css";
 
-const AdultSwimLogo = () => {
+// Might change it in the future
+const Logo = () => {
     const leftText = "[a";
     const rightText = "s]";
     
@@ -60,7 +61,7 @@ const Home = () => {
                     })}
                     className={loaderClass}
                 />
-                {loaderValue === 100 && <AdultSwimLogo />}
+                {loaderValue === 100 && <Logo />}
             </div>
         </div>
     );
